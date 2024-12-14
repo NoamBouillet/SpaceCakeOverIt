@@ -8,7 +8,7 @@ public class MoveMyBalls : MonoBehaviour
     public bool isJumping = false;
     public float forceJump;
 
-    void FixedUpdate()
+    void Update()
     {
         float horizontalMovement = Input.GetAxis("Horizontal") * movespeed * Time.deltaTime;
 
@@ -24,6 +24,7 @@ public class MoveMyBalls : MonoBehaviour
         rb.linearVelocity = Vector3.SmoothDamp(rb.linearVelocity, targetVelocity, ref velocity, .05f);
 
         if (isJumping == true) {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
             rb.AddForce(new Vector2(0f, forceJump));
             isJumping = false;
         }
