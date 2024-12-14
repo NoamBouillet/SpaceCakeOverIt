@@ -5,10 +5,11 @@ public class camera_moove : MonoBehaviour
     public float movespeed;
     public Rigidbody2D rb;
     private Vector3 velocity =  Vector3.zero;
+    public float speed; 
 
     void Update()
     {
-        movespeed += (float)(0.001);
+        movespeed += speed;
         float verticalMovement = movespeed * Time.deltaTime;
         move(verticalMovement);
     }
