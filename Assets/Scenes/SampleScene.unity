@@ -341,6 +341,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: player_transform
+      value: 
+      objectReference: {fileID: 1451899307}
     - target: {fileID: 341627789276091633, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: m_Name
       value: blackHole (2)
@@ -1482,6 +1486,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: player_transform
+      value: 
+      objectReference: {fileID: 1451899307}
     - target: {fileID: 341627789276091633, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: m_Name
       value: blackHole (6)
@@ -2757,6 +2765,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: player_transform
+      value: 
+      objectReference: {fileID: 1451899307}
     - target: {fileID: 341627789276091633, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: m_Name
       value: blackHole
@@ -4378,6 +4390,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: player_transform
+      value: 
+      objectReference: {fileID: 1451899307}
     - target: {fileID: 341627789276091633, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: m_Name
       value: blackHole (3)
@@ -46078,6 +46094,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: player_transform
+      value: 
+      objectReference: {fileID: 1451899307}
     - target: {fileID: 341627789276091633, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: m_Name
       value: blackHole (1)
@@ -46336,6 +46356,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: player_transform
+      value: 
+      objectReference: {fileID: 1451899307}
     - target: {fileID: 341627789276091633, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: m_Name
       value: blackHole (5)
@@ -47298,6 +47322,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: player_transform
+      value: 
+      objectReference: {fileID: 1451899307}
     - target: {fileID: 341627789276091633, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: m_Name
       value: blackHole (4)
