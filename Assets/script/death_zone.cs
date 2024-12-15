@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class death_zone : MonoBehaviour
 {
@@ -6,7 +7,7 @@ public class death_zone : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.transform.position = new Vector3(0, 0, 0);
+            SceneManager.LoadSceneAsync(2);
         }
     }
 }
