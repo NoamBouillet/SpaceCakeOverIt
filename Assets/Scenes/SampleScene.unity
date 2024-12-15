@@ -342,6 +342,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1451899305}
     - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: fadeSystem
+      value: 
+      objectReference: {fileID: 1437506068}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: player_transform
       value: 
       objectReference: {fileID: 1451899307}
@@ -1486,6 +1490,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: fadeSystem
+      value: 
+      objectReference: {fileID: 1437506068}
     - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: player_transform
       value: 
@@ -2767,6 +2775,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: fadeSystem
+      value: 
+      objectReference: {fileID: 1437506068}
     - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: player_transform
       value: 
@@ -4392,6 +4404,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: fadeSystem
+      value: 
+      objectReference: {fileID: 1437506068}
     - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: player_transform
       value: 
@@ -46295,6 +46311,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1451899305}
     - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: fadeSystem
+      value: 
+      objectReference: {fileID: 1437506068}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: player_transform
       value: 
       objectReference: {fileID: 1451899307}
@@ -46556,6 +46576,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: fadeSystem
+      value: 
+      objectReference: {fileID: 1437506068}
     - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: player_transform
       value: 
@@ -47579,6 +47603,10 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1451899305}
+    - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
+      propertyPath: fadeSystem
+      value: 
+      objectReference: {fileID: 1437506068}
     - target: {fileID: -5907145414655458055, guid: 950b434e370dfb4c79ef58c39ade9d0e, type: 3}
       propertyPath: player_transform
       value: 
