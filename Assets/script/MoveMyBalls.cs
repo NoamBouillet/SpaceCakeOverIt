@@ -12,7 +12,7 @@ public class MoveMyBalls : MonoBehaviour
 
     void Update()
     {
-        float horizontalMovement = Input.GetAxis("Horizontal") * movespeed * Time.deltaTime;
+        float horizontalMovement = Input.GetAxis("Horizontal") * movespeed * Time.fixedDeltaTime;
 
         if (Input.GetButtonDown("Jump")) {
             isJumping = true;

@@ -16,7 +16,7 @@ public class camera_moove : MonoBehaviour
         }
         if (isStart == true) {
             movespeed += speed;
-            verticalMovement = movespeed * Time.deltaTime;
+            verticalMovement = movespeed * Time.fixedDeltaTime;
             move(verticalMovement);
         }
     }
