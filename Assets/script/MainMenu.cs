@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class MainMenu : MonoBehaviour
 {
+    public Animator fadeSystem;
+
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(1);
+        StartCoroutine(loadNextScene());
     }
 
     public void QuitGame()
@@ -13,4 +16,10 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+    public IEnumerator loadNextScene()
+    {
+        fadeSystem.SetTrigger("fadeIn");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadSceneAsync(1);
+    }
 }
