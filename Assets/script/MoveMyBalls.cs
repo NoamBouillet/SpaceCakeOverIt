@@ -9,10 +9,12 @@ public class MoveMyBalls : MonoBehaviour
     private Vector3 velocity =  Vector3.zero;
     public bool isJumping = false;
     public float forceJump;
+    public AudioClip sound;
+    public AudioSource audio;
 
     void Update()
     {
-        float horizontalMovement = Input.GetAxis("Horizontal") * movespeed * Time.deltaTime;
+        float horizontalMovement = Input.GetAxis("Horizontal") * movespeed * Time.fixedDeltaTime;
 
         if (Input.GetButtonDown("Jump")) {
             isJumping = true;
@@ -31,6 +33,7 @@ public class MoveMyBalls : MonoBehaviour
         rb.linearVelocity = Vector3.SmoothDamp(rb.linearVelocity, targetVelocity, ref velocity, .05f);
 
         if (isJumping == true) {
+            audio.PlayOneShot(sound);
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
             rb.AddForce(new Vector2(0f, forceJump));
             isJumping = false;
