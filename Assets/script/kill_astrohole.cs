@@ -7,7 +7,7 @@ public class KillAstrohole : MonoBehaviour
 {
     public Rigidbody2D rb;
     public Transform player_transform;
-
+    public Animator fadeSystem;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,12 +15,13 @@ public class KillAstrohole : MonoBehaviour
         {
             // Start the scaling coroutine
             StartCoroutine(ScaleDownCoroutine());
+            StartCoroutine(loadNextScene());
         }
     }
 
     private IEnumerator ScaleDownCoroutine()
     {
-        float duration = 0.1f;
+        float duration = 0.9f;
         Vector3 originalScale = player_transform.localScale;
         float elapsedTime = 0f;
 
@@ -32,5 +33,11 @@ public class KillAstrohole : MonoBehaviour
             yield return null;
         }
         player_transform.localScale = Vector3.zero;
+    }
+    public IEnumerator loadNextScene()
+    {
+        fadeSystem.SetTrigger("fadeIn");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("GameOver");
     }
 }
