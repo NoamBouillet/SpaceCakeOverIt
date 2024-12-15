@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 6347038862735914909}
   - component: {fileID: 6262912874273019804}
   m_Layer: 0
-  m_Name: planet
+  m_Name: planet 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -165,7 +165,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7560284153744367771, guid: b097ed63e92f7e6a38ceeb5c8c533213, type: 3}
+  m_Sprite: {fileID: -1327068718595606436, guid: cab303fdf6df58935a86ab6738ae4bb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
