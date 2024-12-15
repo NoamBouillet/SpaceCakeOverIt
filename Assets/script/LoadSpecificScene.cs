@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 public class LoadSpecificScene : MonoBehaviour
 {
     public string sceneName;
-    public Animator fadeSystem;       
+    public Animator fadeSystem;
+    public Transform player; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
+            PlayerPrefs.SetInt("PlayerScore", (int)(player.position.y + 2));
             StartCoroutine(loadNextScene());
         }
     }
