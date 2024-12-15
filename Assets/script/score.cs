@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class score : MonoBehaviour
 {
     public Transform player;
-    public Text score_text;
+    public TextMeshProUGUI score_text;
     private float score_int = 0f;
     // Update is called once per frame
     void Update() {
