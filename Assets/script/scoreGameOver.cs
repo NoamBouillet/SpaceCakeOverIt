@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+
 
 public class scoreGameOver : MonoBehaviour
 {
-    public Text score_text;
+    public TextMeshProUGUI score_text;
     private float score_int = 0f;
     // Update is called once per frame
     void Update() {
