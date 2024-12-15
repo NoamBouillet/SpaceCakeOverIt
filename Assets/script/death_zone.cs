@@ -10,7 +10,6 @@ public class death_zone : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            PlayerPrefs.SetInt("PlayerScore", (int)(player.position.y + 2));
             SceneManager.LoadSceneAsync(2);
         }
     }
