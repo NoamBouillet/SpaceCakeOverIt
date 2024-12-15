@@ -6,12 +6,17 @@ public class camera_moove : MonoBehaviour
     public Rigidbody2D rb;
     private Vector3 velocity =  Vector3.zero;
     public float speed; 
-
+    private bool isStart = false;
     void Update()
     {
-        movespeed += speed;
-        float verticalMovement = movespeed * Time.deltaTime;
-        move(verticalMovement);
+        if (Input.GetButtonDown("Jump")) {
+            isStart = true;
+        }
+        if (isStart == true) {
+            movespeed += speed;
+            float verticalMovement = movespeed * Time.deltaTime;
+            move(verticalMovement);
+        }
     }
     void move(float _verticalMovement)
     {
