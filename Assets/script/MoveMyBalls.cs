@@ -10,7 +10,7 @@ public class MoveMyBalls : MonoBehaviour
     public bool isJumping = false;
     public float forceJump;
     public AudioClip sound;
-    public AudioSource audio;
+    public AudioSource audio_source;
 
     void Update()
     {
@@ -33,7 +33,7 @@ public class MoveMyBalls : MonoBehaviour
         rb.linearVelocity = Vector3.SmoothDamp(rb.linearVelocity, targetVelocity, ref velocity, .05f);
 
         if (isJumping == true) {
-            audio.PlayOneShot(sound);
+            audio_source.PlayOneShot(sound);
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
             rb.AddForce(new Vector2(0f, forceJump));
             isJumping = false;

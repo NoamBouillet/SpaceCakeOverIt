@@ -14,6 +14,7 @@ public class KillAstrohole : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // Start the scaling coroutine
+            PlayerPrefs.SetInt("PlayerScore", (int)(player_transform.position.y + 2));
             StartCoroutine(ScaleDownCoroutine());
             StartCoroutine(loadNextScene());
         }
