@@ -11,6 +11,8 @@ public class MoveMyBalls : MonoBehaviour
     public float forceJump;
     public AudioClip sound;
     public AudioSource audio_source;
+    public Transform player;
+    private float score_int = 0f;
 
     void Update()
     {
@@ -20,6 +22,10 @@ public class MoveMyBalls : MonoBehaviour
             isJumping = true;
         }
         move(horizontalMovement);
+
+        score_int = player.position.y + 2;
+
+        rb.gravityScale = 1 - (score_int / 250);
 
         flip(rb.linearVelocity.x);
 
